@@ -123,7 +123,7 @@ def random_score():
     return random.uniform(-10 ** 5, 10 ** 5)
 
 
-def test_func(h, limit) -> object:
+def test_func(h, limit):
     t1 = time.time()
 
     while sys.getsizeof(h.history_arr) < 3 * 10 ** 3:
